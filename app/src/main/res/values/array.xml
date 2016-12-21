@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="days">
+        <item name="lunedi"> Lunedi</item>
+        <item name="martedi"> Martedi</item>
+        <item name="mercoledi"> Mercoledi</item>
+        <item name="giovedi"> Giovedi</item>
+        <item name="venerdi"> Venerdi</item>
+    </string-array>
+
+    <string-array name="opzioni_lezione">
+        <item>Modifica ora inizio</item>
+        <item>Modifica ora fine</item>
+        <item>Modifica aula</item>
+        <item>Elimina</item>
+    </string-array>
+
+    <string-array name="option_array">
+        <item>Contatta docente</item>
+        <item>Modifica</item>
+        <item>Elimina</item>
+    </string-array>
+
+    <string-array name="option_array_libretto">
+        <item>Condividi</item>
+        <item>Modifica</item>
+        <item>Elimina</item>
+    </string-array>
+
+    <string-array name="option_array_appello">
+        <item>Modifica</item>
+        <item>Previsione media</item>
+        <item>Elimina</item>
+    </string-array>
+
+    <string-array name="tipologia_esame">
+        <item>Scritto</item>
+        <item>Orale</item>
+        <item>Pratico</item>
+    </string-array>
+
+    <string-array name="array_voti">
+        <item>Seleziona un voto</item>
+        <item>Idoneità</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>30 lode</item>
+    </string-array>
+
+</resources>

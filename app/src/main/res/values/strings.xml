@@ -1,0 +1,94 @@
+<resources>
+
+    <string name="versione_app">Versione app: 1.0.0</string>
+    <string name="matricola">Matricola</string>
+    <string name="cognome">Cognome</string>
+    <string name="nome">Nome</string>
+    <string name="messaggio_benvenuto">Prima di iniziare è necessario impostare alcune cose!</string>
+    <string name="crediti_laurea">CFU laurea</string>
+    <string name="valore_lode">Valore della lode</string>
+    <string name="corso">Corso</string>
+    <string name="tipo">Tipo</string>
+    <string name="email"> Email</string>
+    <string name="ora_inizio">Ora inizio</string>
+    <string name="ora_fine">Ora fine</string>
+    <string name="aula">Aula</string>
+    <string name="aggiungi">Aggiungi</string>
+    <string name="crediti">Crediti</string>
+    <string name="salva">Salva</string>
+    <string name="annulla">Annulla</string>
+    <string name="data">Data</string>
+    <string name="ora">Ora</string>
+    <string name="voto">Voto</string>
+    <string name="account">Account</string>
+    <string name="no_accounts">Nessun account Dropbox associato! Per poter sincronizzare associane uno tramite il pulsante qui sotto</string>
+    <string name="media">Media</string>
+    <string name="variazione">Variazione</string>
+    <string name="no_appelli">Non ci sono ancora appelli da visualizzare</string>
+    <string name="no_corsi">Non ci sono ancora corsi da visualizzare</string>
+    <string name="media_ponderata">Media ponderata</string>
+    <string name="esami_sostenuti">Esami sostenuti</string>
+    <string name="crediti_acquisiti">Crediti acquisiti</string>
+    <string name="proiezione_laurea">Proiezione voto laurea</string>
+    <string name="no_esami">Non ci sono ancora esami da visualizzare</string>
+    <string name="account_dropbox">Account dropbox</string>
+    <string name="info_app">MyUni è un\'applicazione sviluppata per il corso di \"Programmazione di Sistemi Mobili\" all\'Università degli Studi di Parma
+    \n\nPartecipanti al progetto:\n\n - Raccioppi Federico\n - Pedretti Alessandro\n - Mastrini Federico\n\nIn questo progetto sono stati utilizzati:\n\n - Plugin Charts SyncFusion\n - CircleImageView di Hdodenhof</string>
+
+    <string name="app_name">MyUni - Libretto universitario</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="giorno"> Giorno: </string>
+
+    <!-- Header menu laterale -->
+    <string name="menu_nome">[nome e cognome]</string>
+    <string name="menu_matricola">[matricola]</string>
+    <!-- Voci del menu laterale -->
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_libretto">Libretto</string>
+    <string name="menu_appelli">Appelli</string>
+    <string name="menu_orario">Orario</string>
+    <string name="menu_impostazioni">Impostazioni</string>
+    <string name="menu_preferenze">Preferenze</string>
+    <string name="menu_sync">Sincronizza</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_corsi">Corsi</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="lunedì"> lun </string>
+    <string name="martedì"> mar </string>
+    <string name="mercoledì"> mer </string>
+    <string name="giovedì"> gio </string>
+    <string name="venerdì"> ven </string>
+
+
+    <string name="title_activity_impostazioni">Impostazioni</string>
+    <string name="title_activity_preferenze">Preferenze</string>
+    <string name="title_activity_info">Info</string>
+    <string name="title_activity_aggiungi_esame">Nuovo esame</string>
+    <string name="errorOra">ERROR: Ora iniziale precedente o uguale a fine della lezione</string>
+    <string name="errorOraFine">ERROR: Ora finale precedente a inizio della lezione</string>
+    <string name="oraInizioAggiornata">Ora inizio aggiornata </string>
+    <string name="oraFineAggiornata">Ora fine aggiornata </string>
+    <string name="aulaModificata">Aula modificata </string>
+    <string name="titleDialogOraInizio">Modifica ora inizio</string>
+    <string name="titleDialogOraFine">Modifica ora fine</string>
+    <string name="titleDialogModificaAula">Modifica aula</string>
+    <string name="WelcomeMessage">Benvenuto in myUni!</string>
+    <string name="val_lode">Valore lode</string>
+    <string name="ok"> OK</string>
+
+    <string name="title_activity_modifica_esame">Modifica Esame</string>
+    <string name="title_activity_sincronizzazione">Sincronizzazione</string>
+    <string name="title_activity_aggiungi_appello">Aggiungi Appello</string>
+    <string name="title_activity_modifica_appello">Modifica Appello</string>
+
+
+    <string name="urlSito"> http://prenofarma.altervista.it/MyUni </string>
+
+</resources>

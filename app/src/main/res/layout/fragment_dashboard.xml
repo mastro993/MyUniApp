@@ -1,0 +1,174 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="progettomobdev.it.myuni.DashboardFragment">
+
+    <LinearLayout
+        android:background="@color/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/panelbackground"
+                android:padding="5dp"
+                android:translationZ="1dp">
+
+                <TextView
+                    android:id="@+id/titolo_media_ponderata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/media_ponderata" />
+
+                <TextView
+                    android:id="@+id/media_ponderata_dashboard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titolo_media_ponderata"
+                    android:layout_centerHorizontal="true"
+                    android:padding="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="40sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/panelbackground"
+                android:padding="5dp"
+                android:translationZ="1dp">
+
+                <TextView
+                    android:id="@+id/titolo_esami_sostenuti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/esami_sostenuti" />
+
+                <TextView
+                    android:id="@+id/esami_sostenuti_dashboard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titolo_esami_sostenuti"
+                    android:layout_centerHorizontal="true"
+                    android:padding="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="40sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/panelbackground"
+            android:padding="15dp"
+            android:translationZ="1dp">
+
+            <TextView
+                android:id="@+id/titolo_crediti_acquisiti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/crediti_acquisiti" />
+
+            <TextView
+                android:id="@+id/crediti_acquisiti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true" />
+
+            <ProgressBar
+                android:id="@+id/progresso_crediti"
+                style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titolo_crediti_acquisiti" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@color/panelbackground"
+            android:padding="5dp"
+            android:translationZ="1dp">
+
+
+            <com.syncfusion.charts.SfChart
+                android:id="@+id/chart1"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:layout_margin="5dp" />
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/panelbackground"
+            android:padding="15dp"
+            android:translationZ="1dp">
+
+            <TextView
+                android:id="@+id/titolo_proiezione"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/proiezione_laurea" />
+
+            <TextView
+                android:id="@+id/voto_proiezione"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true" />
+
+            <ProgressBar
+                android:id="@+id/progresso_proiezione"
+                style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titolo_proiezione" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@color/panelbackground"
+            android:padding="5dp"
+            android:translationZ="1dp">
+
+            <com.syncfusion.charts.SfChart
+                android:id="@+id/chart2"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_margin="5dp"
+                android:overScrollMode="always" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

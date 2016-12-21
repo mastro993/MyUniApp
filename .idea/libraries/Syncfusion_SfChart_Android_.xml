@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Syncfusion.SfChart.Android-">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/Syncfusion.SfChart.Android/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/Syncfusion.SfChart.Android/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

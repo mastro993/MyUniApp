@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="progettomobdev.it.myuni">
+
+    <!-- Permessi per sincronizzazione con dropbox -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.coderefer.androidsplashscreenexample.MAINACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PreferenzeActivity"
+            android:label="@string/title_activity_preferenze"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/title_activity_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AggiungiEsame"
+            android:label="@string/title_activity_aggiungi_esame"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ModificaEsame"
+            android:label="@string/title_activity_modifica_esame"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sincronizzazione"
+            android:label="@string/title_activity_sincronizzazione"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.dropbox.client2.android.AuthActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <data android:scheme="db-jh5b8qh80vez78k" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AggiungiAppello"
+            android:label="@string/title_activity_aggiungi_appello"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FirstRegistrationActivity" />
+        <activity
+            android:name=".ModificaAppello"
+            android:label="@string/title_activity_modifica_appello"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+        <service android:name=".SyncService" />
+
+
+    </application>
+
+</manifest>

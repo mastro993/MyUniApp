@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E74C3C</color>
+    <color name="colorPrimaryDark">#C0392B</color>
+    <color name="colorAccent">#16A085</color>
+    <color name="background">#F6F7F2</color>
+    <color name="panelbackground">#FFFFFF</color>
+    <color name="grey"> #737373 </color>
+
+    <!-- Colore voti -->
+    <color name="basso">#c0392b</color>
+    <color name="buono">#e67e22</color>
+    <color name="ottimo">#27ae60</color>
+    <color name="perfetto">#2980b9</color>
+</resources>
